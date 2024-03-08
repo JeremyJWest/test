@@ -1,0 +1,34 @@
+{
+    "keys": {
+      "accessKey": "4A13B0CA081B8698DF20A383B21080FF752AD462",
+      "secretKey": "E6FC8AB83956E2AC2D68B2648C9B8EEE38AC9483"
+    },
+    "filesSrc": [
+      "./dist/**/*.html",
+      "./dist/**/*.js"
+    ],
+    "filesDest": "./",
+    "applicationId": "65e09d0e676d6330d62fcf4e",
+    "jscramblerVersion": "8.2",
+    "areSubscribersOrdered": false,
+    "useRecommendedOrder": true,
+    "tolerateMinification": true,
+    "profilingDataMode": "off",
+    "useAppClassification": true,
+    "browsers": {},
+    "sourceMaps": false,
+    "params": [
+      {
+        "name": "whitespaceRemoval"
+      },
+      {
+        "name": "dateLock",
+        "options": {
+          "countermeasures": {
+            "breakApplication": true
+          },
+          "endDate": "2024/03/11"
+        }
+      }
+    ]
+  }
